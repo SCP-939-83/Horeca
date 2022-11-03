@@ -1,6 +1,11 @@
+/*Essenciele dingen*/
+
 body {
-    background-color:#F6EED2 ;
+
+    background-color: #F6EED2;
+    
 }
+
 /*Header*/
 
 #logobox {
@@ -21,11 +26,11 @@ body {
     left: 45.25%;
     top: 55px;
     position: absolute;
-
+    
 }
 
 #sprong {
-
+    
     width: 100%;
     height: auto;
     position: absolute;
@@ -43,8 +48,12 @@ body {
     height: 74px;
     border: white groove 3px;
     border-radius: 20px;
-
+    
 }
+    button:hover {
+
+        transform: scale(2);
+    }
 
 /*Aparte css voor de menu boxes*/
 
@@ -92,3 +101,5 @@ body {
     color: white;
     font-size: 25px;
 }
+
+
