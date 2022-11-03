@@ -1,0 +1,24 @@
+/*Essenciele dingen*/
+
+body {
+
+    background-color: #F6EED2;
+}
+
+/*Header*/
+
+#header {
+
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+#sprong {
+    
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    
+    
+}
