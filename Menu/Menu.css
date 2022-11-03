@@ -7,18 +7,43 @@ body {
 
 /*Header*/
 
-#header {
-
-    width: 100%;
-    height: 300px;
-    background-color: aliceblue;
-}
 
 #sprong {
     
-    width: fit-content;
+    width: 100%;
     height: auto;
     position: absolute;
+    right:  0px;
+    top: 0px;
+
+}
+
+.boxes {
+
+    background-color: rgb(114, 0, 0);
+    opacity: 55;
+    position: absolute;
+    width: 157px;
+    height: 74px;
     
-    
+}
+
+/*Aparte css voor de menu boxes*/
+
+#Menu1 {
+
+    left: 3%;
+    top: 80px;
+}
+
+#Menu2 {
+
+    left: 17%;
+    top: 80px;
+}
+
+#Menu3 {
+
+    left: 31%;
+    top: 80px;
 }
