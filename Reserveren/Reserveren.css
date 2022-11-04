@@ -86,14 +86,3 @@ body{
         color: white;
         font-size: 25px;
     }
-
-#tekst{
-    width:50%;
-    height:552px;;
-    background-color:  #fdeeb7;
-    margin-left:25%;
-    margin-top:380px;
-    padding: 25px;
-    text-align: center;
-    font-family: 'Poor Story', cursive;
-}
