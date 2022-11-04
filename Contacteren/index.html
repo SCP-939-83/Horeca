@@ -41,8 +41,41 @@
         </div>
     
     </header>  
-
-
+    <div id="tekstbox" >
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">Voornaam</label>
+              <input type="text" id="fname" name="firstname" placeholder="Voornaam.." required>
+          
+              <label for="lname">Achternaam</label>
+              <input type="text" id="lname" name="lastname" placeholder="Achternaam.." required>
+      
+              <label for="lname">E-mail</label>
+              <input type="text" id="fname" name="E-mail" placeholder="E-mail.." required>
+          
+              <label for="country">Provincies</label required>
+              <select id="country" name="Provincies">
+                <option value="Limburg">Limburg</option>
+                <option value="Noord-Brabant">Noord-Brabant</option>
+                <option value="Flevoland">Flevoland</option>
+                <option value="Zeeland">Zeeland</option>
+                <option value="Zuid-Holland">Zuid-Holland</option>
+                <option value="Drenthe">Drenthe</option>
+                <option value="Groningen">Groningen</option>
+                <option value="Friesland">Friesland</option>
+                <option value="Utrecht">Utrecht</option>
+                <option value="Overijsel">Overijsel</option>
+                <option value="Gelderland">Gelderland</option>
+                <option value="Noord-Holland">Noord-Holland</option>
+              </select>
+          
+              <label for="subject">Onderwerp</label>
+              <textarea id="subject" name="subject" placeholder="Type Hier.." style="height:200px"></textarea required>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </div>
 
 </body>
 </html>
