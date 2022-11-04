@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reserveren</title>
     <link rel="stylesheet" href="Reserveren.css">
 </head>
 <body>
@@ -40,5 +40,21 @@
         </div>
     
     </header>
+    <form action="antwoord.html">
+        <div class="container">
+          <h1>Reserveer hier!</h1>
+          <hr>
+          <label for="naam"><b>Naam</b></label>
+          <input type="text" placeholder="Vul je naam in." name="naam" id="naam" required>
+          <label for="email"><b>E-mail</b></label>
+          <input type="text" placeholder="Vul je e-mail in." name="email" id="email" required>
+          <label for="psw-repeat"><b>Voor wanneer?</b></label>
+          <input type="text" placeholder="Vul in voor wanneer u wilt reserveren." name="psw-repeat" id="psw-repeat" required>
+          <label for="opmerkingen"><b>Opmerkingen</b></label>
+          <input type="text" placeholder="Vul hier iets in als je opmerkingen hebt." name="password" id="password">
+          <hr>
+          <button type="submit" class="registerbtn">Reserveren</button>
+        </div>
+      </form>
 </body>
 </html>
