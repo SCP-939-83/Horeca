@@ -3,7 +3,7 @@
 body {
 
     background-color: #F6EED2;
-    
+    height: fit-content;
 }
 
 /*Header*/
@@ -14,7 +14,7 @@ body {
     position: absolute;
     border: white groove 3px;
     border-radius: 20px;
-    left: 46%;
+    left: 46.5%;
     top: 50px;
     width: 100px;
     height: 140px;
@@ -23,7 +23,7 @@ body {
 #logo {
 
     width: 100px;
-    left: 46.25%;
+    left: 46.75%;
     top: 55px;
     position: absolute;
     
@@ -115,7 +115,7 @@ body {
     margin: 30px;
     bottom: 240px;
     position: relative;
-    left: 24.5%;
+    left: 25.5%;
 }
 
 .Menuboxen3 {
@@ -126,7 +126,7 @@ body {
     margin: 30px;
     bottom: 780px;
     position: relative;
-    left: 45%;
+    left: 50%;
 }
 
 .Menuboxen4 {
@@ -135,9 +135,9 @@ body {
     width: 300px;
     height: 150px;
     margin: 30px;
-    bottom: 240px;
+    bottom: 1320px;
     position: relative;
-    left: 80%;
+    left: 75.5%;
 }
 
 /*Footer*/
