@@ -71,4 +71,5 @@ body{
     padding: 25px;
     text-align: center;
     font-family: 'Poor Story', cursive;
+    box-shadow: 0 5px 25px rgb(114, 0, 0);
 }
