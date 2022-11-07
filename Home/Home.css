@@ -84,7 +84,7 @@ h3{
 /*Aparte css voor de menu boxes*/
 
 #Menu1 {
-
+    background-color: rgb(255, 117, 93);
     left: 5%;
     top: 80px;
 }
