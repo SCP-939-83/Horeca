@@ -12,14 +12,14 @@ body {
 
 #tekstbox {
     background-color: #fdeeb7;
-        width: 50%;
+        width: 60%;
         height: 60%;
         border-radius: 50%;
-        padding: 25px;
+        padding: 23px;
         box-shadow: 0 5px 25px rgb(114, 0, 0);
         transition: 0.7s ease;
-        margin-left: 25%;
-        margin-top: 325px;
+        margin-left: 20%;
+        margin-top: 345px;
         text-align: center;
 }
 
@@ -33,15 +33,13 @@ h3{
     font-size: 24px;
 }
 
-/*Header*/
-
 #logobox {
 
     background-color: rgb(114, 0, 0, 0.50);
     position: absolute;
     border: white groove 3px;
     border-radius: 20px;
-    left: 45%;
+    left: 46.5%;
     top: 50px;
     width: 100px;
     height: 140px;
@@ -50,18 +48,18 @@ h3{
 #logo {
 
     width: 100px;
-    left: 45.25%;
+    left: 46.75%;
     top: 55px;
     position: absolute;
-
+    
 }
 
 #sprong {
-
+    
     width: 100%;
     height: auto;
     position: absolute;
-    right:  0px;
+    right: 0px;
     top: 0px;
     z-index: -1;
 
@@ -75,48 +73,51 @@ h3{
     height: 74px;
     border: white groove 3px;
     border-radius: 20px;
-
+    
+    
 }
+    .boxes:hover {
+
+        transform: scale(1.4);
+    }
 
 /*Aparte css voor de menu boxes*/
 
 #Menu1 {
 
-    left: 4%;
+    left: 5%;
     top: 80px;
 }
 
 #Menu2 {
 
-    left: 18%;
+    left: 19%;
     top: 80px;
 }
 
 #Menu3 {
 
-    left: 32%;
+    left: 33%;
     top: 80px;
 }
 
 #Menu4 {
 
-    left: 56.8%;
+    left: 57.8%;
     top: 80px;
 }
 
 #Menu5 {
 
-    left: 71%;
+    left: 72%;
     top: 80px;
 }
 
 #Menu6 {
 
-    left: 85%;
+    left: 86%;
     top: 80px;
 }
-
-/*Andere deco*/
 
 .textmenu {
 
