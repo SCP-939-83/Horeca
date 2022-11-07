@@ -1,0 +1,12 @@
+.left{
+    text-align: left;
+    position: relative;
+    line-height: 0;
+}
+
+.right{
+    text-align: right;
+    position: relative;
+    line-height: 0;
+}
+
