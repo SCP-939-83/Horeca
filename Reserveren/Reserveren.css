@@ -46,6 +46,7 @@ body{
         top: 80px;
     }
     #Menu4 {
+        background-color: rgb(255, 117, 93);
         left: 57.8%;
         top: 80px;
     }
@@ -71,11 +72,11 @@ body{
         background: #f1f1f1;
       }
       input[type=text]:focus, input[type=password]:focus {
-        background-color: rgb(114, 0, 0, 0.50);
+        background-color: white;
         outline: none;
       }
       hr {
-        border: 1px solid rgb(114, 0, 0, 0.50);
+        border: 1px solid white;
         margin-bottom: 25px;
         margin-top: 50px;
       }

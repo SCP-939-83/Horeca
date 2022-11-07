@@ -60,7 +60,10 @@ body {
     border-radius: 20px;
 
 }
+    .boxes:hover {
 
+        transform: scale(1.4);
+    }
 /*Aparte css voor de menu boxes*/
 
 #Menu1 {
@@ -88,7 +91,7 @@ body {
 }
 
 #Menu5 {
-
+    background-color: rgb(255, 117, 93);
     left: 70%;
     top: 80px;
 }
