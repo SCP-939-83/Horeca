@@ -45,42 +45,45 @@ body {
     border-radius: 20px;
 
 }
+    .boxes:hover {
 
+        transform: scale(1.4);
+    }
 /*Aparte css voor de menu boxes*/
 
 #Menu1 {
 
-    left: 3%;
+    left: 4%;
     top: 80px;
 }
 
 #Menu2 {
 
-    left: 17%;
+    left: 18%;
     top: 80px;
 }
 
 #Menu3 {
 
-    left: 31%;
+    left: 32%;
     top: 80px;
 }
 
 #Menu4 {
 
-    left: 55.8%;
+    left: 56.8%;
     top: 80px;
 }
 
 #Menu5 {
 
-    left: 70%;
+    left: 71%;
     top: 80px;
 }
 
 #Menu6 {
 
-    left: 84%;
+    left: 85%;
     top: 80px;
 }
 
@@ -92,3 +95,4 @@ body {
     color: white;
     font-size: 25px;
 }
+
