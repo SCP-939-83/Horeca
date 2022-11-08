@@ -3,7 +3,7 @@
 body {
 
     background-color: #F6EED2;
-    
+    height: 1000px;
 }
 
 /*Header*/
@@ -14,7 +14,7 @@ body {
     position: absolute;
     border: white groove 3px;
     border-radius: 20px;
-    left: 45%;
+    left: 46.5%;
     top: 50px;
     width: 100px;
     height: 140px;
@@ -23,7 +23,7 @@ body {
 #logo {
 
     width: 100px;
-    left: 45.25%;
+    left: 46.75%;
     top: 55px;
     position: absolute;
     
@@ -34,9 +34,10 @@ body {
     width: 100%;
     height: auto;
     position: absolute;
-    right:  0px;
+    right: 0px;
     top: 0px;
     z-index: -1;
+    border-bottom: groove black 4px;
 
 }
 
@@ -49,48 +50,111 @@ body {
     border: white groove 3px;
     border-radius: 20px;
     
+    
 }
-    button:hover {
+    .boxes:hover {
 
-        transform: scale(2);
+        background-color: rgba(62, 0, 0, 0.5);
+        transform: scale(1.4);
     }
 
 /*Aparte css voor de menu boxes*/
 
 #Menu1 {
 
-    left: 3%;
+    left: 4%;
     top: 80px;
 }
 
 #Menu2 {
-
-    left: 17%;
+    background-color: rgb(255, 117, 93);
+    left: 18%;
     top: 80px;
+    display: inline-block;
 }
 
 #Menu3 {
 
-    left: 31%;
+    left: 32%;
     top: 80px;
 }
 
 #Menu4 {
 
-    left: 55.8%;
+    left: 56.8%;
     top: 80px;
 }
 
 #Menu5 {
 
-    left: 70%;
+    left: 71%;
     top: 80px;
 }
 
 #Menu6 {
 
-    left: 84%;
+    left: 85%;
     top: 80px;
+}
+
+/*dropdown*/
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: rgb(114, 0, 0, 0.50);
+    width: 157px;
+    border: white groove 3px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+.dropdown-content a {
+    
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    #Menu2:hover .dropdown-content a:hover {
+
+        background-color: rgba(62, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+    #Menu2:hover .dropdown-content {
+
+        display: block;
+    }
+
+#kaart {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 750px;
+    transform: translate(-50% );
+}
+
+/*Footer*/
+
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 1350px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
 }
 
 /*Andere deco*/
@@ -101,5 +165,4 @@ body {
     color: white;
     font-size: 25px;
 }
-
 
