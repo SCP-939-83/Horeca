@@ -105,55 +105,63 @@ body {
     width: 157px;
     border: white groove 3px;
     z-index: 1;
+
 }
 
 /*Menu boxen*/
 
-.Menuboxen {
+.Menuboxenspec {
 
     background-color: #fdeeb7;
     width: 300px;
     height: 150px;
     margin: 30px;
-    top: 300px;
     position: relative;
-    left: 0%;
+    
 }
 
-.Menuboxen2 {
+#Menubox1 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 240px;
     position: relative;
-    left: 25.5%;
+    
+    top: 1615px;
 }
 
-.Menuboxen3 {
+#Menubox2 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 780px;
     position: relative;
-    left: 50%;
+    left: 200px;
+    top: 1250px;
 }
 
-.Menuboxen4 {
+#Menubox3 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 1320px;
     position: relative;
-    left: 75.5%;
+    left: 500px;
+    top: 880px;
 }
 
+#Menubox4 {
 
+    position: relative;
+    left: 800px;
+    top: 890px;
+}
+
+#Menubox5 {
+
+    position: relative;
+    left: 1200px;
+    top: 895px;
+}
+
+#kaart {
+
+    position: absolute;
+    top: 400px;
+    width: 50%;
+    height: 750px;
+}
 
 /*Footer*/
 
@@ -163,17 +171,8 @@ footer {
     width: 101%;
     height: 175px;
     position: relative;
-    top: -1250px;
+    top: 1000px;
     right: 8px;
-}
-
-/*Andere deco*/
-
-.textmenu {
-
-    text-align: center;
-    color: white;
-    font-size: 25px;
 }
 
 #footertext {
@@ -187,5 +186,25 @@ footer {
     bottom: 100px;
     position: relative;
 }
+
+/*Andere deco*/
+
+.textmenu {
+
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#South_Africa {
+
+    position: absolute;
+    left: 500px;
+    bottom: 2000px;
+    width: 200px;
+    height: auto;
+}
+
+
 
 
