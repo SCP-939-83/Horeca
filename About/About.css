@@ -64,14 +64,13 @@ body{
 }
 
 #Menu2 {
-    background-color: rgb(255, 117, 93);
     left: 18%;
     top: 80px;
     display: inline-block;
 }
 
 #Menu3 {
-
+    background-color: rgb(255, 117, 93);
     left: 32%;
     top: 80px;
 }
