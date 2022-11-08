@@ -245,6 +245,28 @@ footer {
     border: 5px groove black;
 }
 
+/*Footer*/
 
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 2000px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
+}
 
 

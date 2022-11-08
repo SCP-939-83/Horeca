@@ -145,7 +145,8 @@ body {
     text-align: center;
     color: white;
     font-size: 25px;
-    padding-top: 20px;
+    top: 2%;
+    transform: translate(0 , -2% );
 }
 
     * {box-sizing: border-box;}
@@ -192,3 +193,27 @@ body {
     }
 
     input.button { text-indent: -9000px; text-transform: capitalize; }
+
+/*Footer*/
+
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 1250px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
+}

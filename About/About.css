@@ -105,7 +105,7 @@ body{
     border: white groove 3px;
     border-radius: 20px;
     z-index: 1;
-    margin-top: 5px;
+    top: 75px;
 }
 
 .dropdown-content a {
@@ -139,7 +139,7 @@ body{
 
     #tekst{
     width:50%;
-    height:552px;;
+    height:640px;;
     background-color:  #fdeeb7;
     margin-left:25%;
     margin-top:380px;
@@ -147,4 +147,28 @@ body{
     text-align: center;
     font-family: 'Poor Story', cursive;
     box-shadow: 0 5px 25px rgb(114, 0, 0);
+}
+
+/*Footer*/
+
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 1250px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
 }

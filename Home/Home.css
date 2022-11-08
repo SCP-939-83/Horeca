@@ -135,7 +135,7 @@ h3{
     border: white groove 3px;
     border-radius: 20px;
     z-index: 1;
-    margin-top: 10px;
+    top: 75px;
 }
 
 .dropdown-content a {
@@ -163,4 +163,28 @@ h3{
     color: white;
     font-size: 25px;
     padding-top: 20px;
+}
+
+/*Footer*/
+
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 1100px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
 }

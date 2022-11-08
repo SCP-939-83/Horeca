@@ -182,3 +182,27 @@ body{
         margin-bottom: 16px;
         resize: vertical;
       }
+
+/*Footer*/
+
+footer {
+
+    background-color: #fdeeb7;
+    width: 101%;
+    height: 190px;
+    position: absolute;
+    top: 1200px;
+    right: 8px;
+}
+
+#footertext {
+
+    padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
+}

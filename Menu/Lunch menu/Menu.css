@@ -136,7 +136,7 @@ body {
     left: 50%;
     top: 50%;
     width: 50%;
-    height: 750px;
+    height: 1000px;
     transform: translate(-50% );
 }
 
@@ -148,13 +148,20 @@ footer {
     width: 101%;
     height: 190px;
     position: absolute;
-    top: 1350px;
+    top: 1500px;
     right: 8px;
 }
 
 #footertext {
 
     padding: 40px;
+}
+
+#footerlink {
+
+    text-align: right;
+    bottom: 100px;
+    position: relative;
 }
 
 /*Andere deco*/
