@@ -186,7 +186,7 @@ body {
 
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 350px;
     width: 50%;
     height: 750px;
     transform: translate(-50% );
