@@ -68,7 +68,7 @@ body {
     }
     #tekst{
     width:50%;
-    height: 50%;
+    height: 40%;
     background-color:  #fdeeb7;
     margin-left:25%;
     margin-top:380px;
@@ -88,4 +88,40 @@ body {
     text-align: right;
     position: relative;
     line-height: 0;
+}
+
+#frisdrankfoto{
+    text-align: right;
+    top: -300px;
+    position: relative;
+}
+
+#warmfoto {
+    text-align: left;
+    top: -350px;
+    position: relative;
+}
+
+#bierfoto{
+    text-align: right;
+    top: -400px;
+    position: relative; 
+}
+
+#sterkedrankfoto{
+    text-align: right;
+    top: -350px;
+    position: relative;
+}
+
+#wijnfoto {
+    text-align: left;
+    top: -225px;
+    position: relative;
+}
+
+#jagermeisterfoto{
+    text-align: left;
+    top: -200px;
+    position: relative; 
 }
