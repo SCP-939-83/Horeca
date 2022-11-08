@@ -63,7 +63,6 @@ body{
 }
 
 #Menu2 {
-    background-color: rgb(255, 117, 93);
     left: 18%;
     top: 80px;
     display: inline-block;
@@ -76,7 +75,7 @@ body{
 }
 
 #Menu4 {
-
+    background-color: rgb(255, 117, 93);
     left: 56.8%;
     top: 80px;
 }
