@@ -1,6 +1,9 @@
-body{
-    background-color: #F6EED2
+body {
+
+    background-color: #F6EED2;
+    
 }
+
 #logobox {
         background-color: rgb(114, 0, 0, 0.50);
         position: absolute;
@@ -65,7 +68,7 @@ body{
     }
     #tekst{
     width:50%;
-    height:552px;;
+    height: 50%;
     background-color:  #fdeeb7;
     margin-left:25%;
     margin-top:380px;
@@ -73,4 +76,16 @@ body{
     text-align: center;
     font-family: 'Poor Story', cursive;
     box-shadow: 0 5px 25px rgb(114, 0, 0);
+}
+
+.left{
+    text-align: left;
+    position: relative;
+    line-height: 0;
+}
+
+.right{
+    text-align: right;
+    position: relative;
+    line-height: 0;
 }
