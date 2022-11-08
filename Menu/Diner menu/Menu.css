@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 /*Essenciele dingen*/
 
 body {
@@ -115,52 +117,57 @@ body {
     background-color: #fdeeb7;
     width: 300px;
     height: 150px;
-    margin: 30px;
-    position: relative;
-    
+    box-shadow: 0 5px 25px rgb(114, 0, 0);
 }
 
 #Menubox1 {
 
-    position: relative;
-    
-    top: 1615px;
+    position: absolute;
+    left: 5%;
+    top: 1700px;
+    transform: translate(-5% );
 }
 
 #Menubox2 {
 
-    position: relative;
-    left: 200px;
-    top: 1250px;
+    position: absolute;
+    left: 20%;
+    top: 1450px;
+    transform: translate(-20% );
 }
 
 #Menubox3 {
 
-    position: relative;
-    left: 500px;
-    top: 880px;
+    position: absolute;
+    left: 50%;
+    top: 1300px;
+    transform: translate(-50% );
 }
 
 #Menubox4 {
 
-    position: relative;
-    left: 800px;
-    top: 890px;
+    position: absolute;
+    left: 80%;
+    top: 1450px;
+    transform: translate(-80% );
 }
 
 #Menubox5 {
 
-    position: relative;
-    left: 1200px;
-    top: 895px;
+    position: absolute;
+    left: 95%;
+    top: 1700px;
+    transform: translate(-95% );
 }
 
 #kaart {
 
     position: absolute;
-    top: 400px;
+    left: 50%;
+    top: 50%;
     width: 50%;
     height: 750px;
+    transform: translate(-50% );
 }
 
 /*Footer*/
@@ -170,8 +177,8 @@ footer {
     background-color: #fdeeb7;
     width: 101%;
     height: 175px;
-    position: relative;
-    top: 1000px;
+    position: absolute;
+    top: 2000px;
     right: 8px;
 }
 
@@ -196,13 +203,24 @@ footer {
     font-size: 25px;
 }
 
+#spectext {
+    
+    position: relative;
+    text-align: center;
+    top: 1135px;
+    font-family: "poor story";
+    font-size: 60px;
+}
+
 #South_Africa {
 
     position: absolute;
-    left: 500px;
-    bottom: 2000px;
-    width: 200px;
+    left: 50%;
+    top: 1600px;
+    width: 300px;
     height: auto;
+    transform: translate(-50% );
+    border: 5px groove black;
 }
 
 
