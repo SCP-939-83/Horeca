@@ -1,6 +1,21 @@
+
 body {
-    background-color:#F6EED2 ;
+    background-color: #F6EED2;
 }
+
+#tekstbox {
+    background-color: #fdeeb7;
+        width: 50%;
+        height: 60%;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: 'Poor Story', cursive;
+        transition: 0.7s ease;
+        margin-left: 25%;
+        margin-top: 400px;
+        text-align: center;
+}
+
 /*Header*/
 
 #logobox {
@@ -53,37 +68,37 @@ body {
 
 #Menu1 {
 
-    left: 4%;
+    left: 3%;
     top: 80px;
 }
 
 #Menu2 {
 
-    left: 18%;
+    left: 17%;
     top: 80px;
 }
 
 #Menu3 {
 
-    left: 32%;
+    left: 31%;
     top: 80px;
 }
 
 #Menu4 {
 
-    left: 56.8%;
+    left: 55.8%;
     top: 80px;
 }
 
 #Menu5 {
-
-    left: 71%;
+    background-color: rgb(255, 117, 93);
+    left: 70%;
     top: 80px;
 }
 
 #Menu6 {
 
-    left: 85%;
+    left: 84%;
     top: 80px;
 }
 
@@ -96,3 +111,34 @@ body {
     font-size: 25px;
 }
 
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #852828;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #852828;
+      color: #fdeeb7;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #852828;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #fdeeb7;
+      padding: 20px;
+    }
