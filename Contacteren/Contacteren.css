@@ -139,3 +139,5 @@ body {
       background-color: #fdeeb7;
       padding: 20px;
     }
+
+    input.button { text-indent: -9000px; text-transform: capitalize; }
