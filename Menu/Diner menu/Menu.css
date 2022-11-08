@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 /*Essenciele dingen*/
 
 body {
@@ -105,55 +107,68 @@ body {
     width: 157px;
     border: white groove 3px;
     z-index: 1;
+
 }
 
 /*Menu boxen*/
 
-.Menuboxen {
+.Menuboxenspec {
 
     background-color: #fdeeb7;
     width: 300px;
     height: 150px;
-    margin: 30px;
-    top: 300px;
-    position: relative;
-    left: 0%;
+    box-shadow: 0 5px 25px rgb(114, 0, 0);
 }
 
-.Menuboxen2 {
+#Menubox1 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 240px;
-    position: relative;
-    left: 25.5%;
+    position: absolute;
+    left: 5%;
+    top: 1700px;
+    transform: translate(-5% );
 }
 
-.Menuboxen3 {
+#Menubox2 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 780px;
-    position: relative;
+    position: absolute;
+    left: 20%;
+    top: 1450px;
+    transform: translate(-20% );
+}
+
+#Menubox3 {
+
+    position: absolute;
     left: 50%;
+    top: 1300px;
+    transform: translate(-50% );
 }
 
-.Menuboxen4 {
+#Menubox4 {
 
-    background-color: #fdeeb7;
-    width: 300px;
-    height: 150px;
-    margin: 30px;
-    bottom: 1320px;
-    position: relative;
-    left: 75.5%;
+    position: absolute;
+    left: 80%;
+    top: 1450px;
+    transform: translate(-80% );
 }
 
+#Menubox5 {
 
+    position: absolute;
+    left: 95%;
+    top: 1700px;
+    transform: translate(-95% );
+}
+
+#kaart {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 750px;
+    transform: translate(-50% );
+}
 
 /*Footer*/
 
@@ -162,18 +177,9 @@ footer {
     background-color: #fdeeb7;
     width: 101%;
     height: 175px;
-    position: relative;
-    top: -1250px;
+    position: absolute;
+    top: 2000px;
     right: 8px;
-}
-
-/*Andere deco*/
-
-.textmenu {
-
-    text-align: center;
-    color: white;
-    font-size: 25px;
 }
 
 #footertext {
@@ -187,5 +193,36 @@ footer {
     bottom: 100px;
     position: relative;
 }
+
+/*Andere deco*/
+
+.textmenu {
+
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#spectext {
+    
+    position: relative;
+    text-align: center;
+    top: 1135px;
+    font-family: "poor story";
+    font-size: 60px;
+}
+
+#South_Africa {
+
+    position: absolute;
+    left: 50%;
+    top: 1600px;
+    width: 300px;
+    height: auto;
+    transform: translate(-50% );
+    border: 5px groove black;
+}
+
+
 
 
