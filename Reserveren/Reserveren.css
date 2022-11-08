@@ -129,6 +129,8 @@ body{
         text-align: center;
         color: white;
         font-size: 25px;
+        top: 2%;
+        transform: translate(0 , -2% );
     }
     
     input[type=text], input[type=password] {

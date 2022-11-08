@@ -47,6 +47,7 @@ body{
     border-radius: 20px;
     
     
+    
 }
     .boxes:hover {
 
@@ -131,6 +132,8 @@ body{
     color: white;
     font-size: 25px;
     padding-top: 20px;
+    top: 42.5%;
+    transform: translate(0 , -42.5% );
 }
 
     #tekst{
