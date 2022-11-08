@@ -97,3 +97,6 @@ body{
         margin-top:350px;
         font-family: 'Poor Story', cursive;
       }
+      #button{
+        text-align: center;
+      }
