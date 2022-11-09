@@ -77,7 +77,6 @@ body {
 }
 
 #Menu2 {
-    background-color: rgb(255, 117, 93);
     left: 18%;
     top: 80px;
     display: inline-block;
@@ -118,7 +117,7 @@ body {
     border: white groove 3px;
     border-radius: 20px;
     z-index: 1;
-    margin-top: 5px;
+    top: 70px;
 }
 
 .dropdown-content a {
@@ -146,6 +145,8 @@ body {
     color: white;
     font-size: 25px;
     padding-top: 20px;
+    top: 42.5%;
+    transform: translate(0 , -42.5% );
 }
 
     * {box-sizing: border-box;}
