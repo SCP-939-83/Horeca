@@ -62,11 +62,28 @@
     </header>
         <div id="tekstbox" >
             <div class="container">
-                <img src="../Images/betalen/Paypal.png" width="100px" height="auto" >
-                <img src="../Images/betalen/Ideal.png" width="100px" height="auto">
-                <img src="../Images/betalen/Tikkie.png" width="100px" height="auto">
-                </form>
-              </div>
+                <form action="/action_page.php">
+                <input type="text" id="fname" placeholder="Naam" size="10" required>
+                <select required>
+                    <option value="Bank" >Kies je bank</option>
+                    <option value="Bank" >ASN bank</option>
+                    <option value="Bank" >ABN ambro</option>
+                    <option value="Bank" >bunq</option>
+                    <option value="Bank" >Handels banken</option>
+                    <option value="Bank" >ING</option>
+                    <option value="Bank" >Knab</option>
+                    <option value="Bank" >Rabobank</option>
+                    <option value="Bank" >Regiobank</option>
+                    <option value="Bank" >revulot</option>
+                    <option value="Bank" >SNS</option>
+                    <option value="Bank" >Triodos bank</option>
+                    <option value="Bank" >Van lanschot</option>
+              </select>
+              <input type="text" id="fname" placeholder="Postcode, Stad, staart naam/nummer" size="10" required>
+              <input type="text" id="fname" placeholder="Banknummer" size="10" required>
+              <input type="text" id="fname" placeholder="Pasnummer" max="4" required>
+              <a href="../Betalen/index.html"><input type="submit" type="button"></a>
+            </div>
         </div>
     </form>
 
